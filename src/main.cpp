@@ -5,11 +5,11 @@
 #include <Adafruit_Sensor.h>
 
 #define WIFI_SSID "POCO X3 NFC"
-#define WIFI_PASSWORD "a123456789"
-#define DATABASE_URL "https://esp32-fb-38035-default-rtdb.firebaseio.com/"
-#define API_KEY "AIzaSyDyof08i5lXRiBAHbGH3XBGMY4eoib5gjs"
+#define WIFI_PASSWORD "a********789"
+#define DATABASE_URL "https://***************.firebaseio.com/"
+#define API_KEY "AIzaSyDyof*************GMY4eoib5gjs"
 
-#define DHTpin 33    //D15 of ESP32 DevKit
+#define DHTpin 33    // G33 of ESP32 DevKit
 #define DHT_TYPE DHTesp::DHT11
 DHTesp dht;
 FirebaseData firebaseData;
